@@ -1,0 +1,126 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.name_en{
+    font-size: 70px;
+    font-family: 'Inter', sans-serif;
+    color: #1a39d4;
+}
+.name_jp{
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    color: #ff0000;
+}
+header{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+#butto{
+  position:fixed;
+  top: 20px;
+  right: 20px;
+  color: grey;
+  cursor: pointer;
+}
+.dark-mode {
+    background-color: black;
+}
+.outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    transform: translateY(60px);
+}
+.Zoan,.Logia,.Paramecia{
+    width: 340px;
+    height: 360px;
+    border-radius: 20px;
+    background-color: #525a9f;
+    margin: 35px;
+}
+.Name{
+    width: 340px;
+    height: 75px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #151717;
+}
+h2,.name{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #eabd8a;
+}
+.details{
+    padding: 0;
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    display: flex;
+    color: white;
+}
+.imagess{
+    display: flex;
+    justify-content: center;
+}
+.df_user_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.robin{
+    width: 90vw;
+    height: 400px;
+    border-top-right-radius: 20px;
+    background: linear-gradient(90deg, rgba(97,97,180,1) 36%, rgba(165,106,185,1) 90%);    display: flex;
+}
+.img img{
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+p{
+    text-align:justify;
+    margin: 0;
+    padding-left: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+.df img{
+    object-fit: contain;
+    overflow: hidden;
+    height: 340px;
+    width: 308px;
+    position: relative;
+    left: 333px;
+}
+.df p{
+    text-align: justify;
+    margin: 0;
+    padding-left: 309px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+.robin_vids{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
