@@ -9,7 +9,7 @@ html,body{
 .name_en{
     font-size: 70px;
     font-family: 'Inter', sans-serif;
-    color: #1a39d4;
+    color: #ad2ff6;
 }
 .name_jp{
     font-size: 30px;
@@ -31,8 +31,7 @@ header{
   cursor: pointer;
 }
 .dark-mode {
-    background-color: black;
-}
+    background: linear-gradient(to bottom, #1c1c1c, #434343);}
 .outer {
     display: flex;
     flex-direction: row;
@@ -86,9 +85,9 @@ h2,.name{
     align-items: center;
     margin-top: 30px;
 }
-.robin,.ace,.bigmom{
+.robin,.ace,.bigmom,.kaido,.whitebeard{
     width: 90vw;
-    height: 60vh;
+    height: 55vh;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 5px;
@@ -114,7 +113,7 @@ p{
     text-align:justify;
     margin: 0;
     font-family: 'Nunito', sans-serif;
-    font-size: 50px;
+    font-size: 70px;
 }
 .df img{
     object-fit: contain;
